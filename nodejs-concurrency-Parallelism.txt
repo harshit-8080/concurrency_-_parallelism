@@ -1,1 +1,23 @@
 
+Question: 
+
+    How nodejs handles concurrent requests and is Parallelism possible in node js  ?
+
+Answer:
+
+    In Node.js, concurrency is achieved through its event-driven, non-blocking I/O model. 
+
+    Node.js handles concurrent requests by using asynchronous, non-blocking I/O operations.
+
+    Node.js is single-threaded, which means it runs on a single thread by default, handling all requests in an event loop. 
+
+    This event loop allows Node.js to manage multiple concurrent operations efficiently.
+
+    This non-blocking I/O model allows Node.js to handle a large number of concurrent connections efficiently without creating a new thread for each request. 
+    
+    It's particularly useful for I/O-bound tasks, such as handling multiple incoming HTTP requests, reading from databases, or performing file operations.
+
+
+Regarding parallelism: 
+
+    Regarding parallelism, pure parallelism (running multiple operations simultaneously on multiple CPU cores) is limited in the default setup of Node.js due to its single-threaded nature. 
