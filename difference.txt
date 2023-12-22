@@ -17,3 +17,9 @@ Parallelism is when tasks literally run at the same time, e.g., on a multicore p
 Parallelism: A condition that arises when at least two threads are executing simultaneously.
 
 
+Parallelism requires hardware with multiple processing units, 
+
+essentially. In single-core CPU, you may get concurrency but NOT parallelism. 
+
+Parallelism is a specific kind of concurrency where tasks are really executed simultaneously.
+
