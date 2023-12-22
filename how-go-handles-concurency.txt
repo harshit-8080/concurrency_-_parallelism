@@ -1,0 +1,29 @@
+Concurrency Basics
+
+Goroutines are lightweight threads managed by Go-runtime. 
+  
+The cost of creating Goroutines is very small compared to the creation of an operating system thread. 
+  
+Every Golang Application has at least one Goroutine and that Goroutine is known as the main Goroutine. 
+  
+All the Goroutines are working under the main Goroutines if the main Goroutine is terminated, then all the Goroutines present in the program are also terminated.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------  
+  
+There are two important Concurrency Golang Concepts 
+
+Goroutines : Goroutine is a function that runs simultaneously with other functions. 
+
+Channels : A channel is a highway used for sending and receiving data between Goroutines. Channels provide a way for one goroutine to send structured data to another.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+How Goroutines Work?
+  
+Goroutines allow our application to become asynchronous in nature. 
+
+Goroutines are different from threads and are managed by Go runtime.
+
+  
