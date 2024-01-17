@@ -25,5 +25,3 @@ How Goroutines Work?
 Goroutines allow our application to become asynchronous in nature. 
 
 Goroutines are different from threads and are managed by Go runtime.
-
-  
